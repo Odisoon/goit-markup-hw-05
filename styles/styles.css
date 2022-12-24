@@ -95,8 +95,6 @@ a {
 
 .contact-info:hover, .contact-info:focus {
     color: #4D5AE5;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -152,6 +150,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-info-container {
@@ -434,13 +434,13 @@ a {
     border-radius: 4px;
     height: 88px;
     fill: #AFB1B8;
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover, .customers-link:focus {
     border: 1px solid #4D5AE5;
     fill: #4D5AE5;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers {
@@ -564,6 +564,8 @@ a {
     transition: transform 250ms linear;
     padding: 40px 32px 164px 32px;
     letter-spacing: 0.02em;
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-box {
@@ -574,6 +576,4 @@ a {
 .overlay-box:hover .overlay-text,
 .overlay-box:focus .overlay-text {
     transform: translate(0, 0); 
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
