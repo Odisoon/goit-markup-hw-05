@@ -100,12 +100,9 @@ a {
 }
 
 
-
 .social-media-link:hover, .social-media-link:focus {
     background-color: #31D0AA;;
     border-radius: 50%;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio {           
@@ -203,15 +200,6 @@ a {
     margin-right: auto;
     padding-bottom: 48px;
     
-}
-
-button:hover, button:focus {
-    background: #4D5AE5;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    color: #FFFFFF;
-    transition-duration: 250ms;
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button-open {
@@ -321,6 +309,15 @@ button:hover, button:focus {
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms;
+}
+
+.portfolio-button:hover {
+    background: #4D5AE5;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
 }
 
 .edge {
@@ -502,6 +499,8 @@ button:hover, button:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-duration: 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
